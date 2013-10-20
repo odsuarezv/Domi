@@ -23,7 +23,7 @@
 							<h3>${fieldValue(bean: restaurantInstance, field: "name")}</h3>
 							<p>${fieldValue(bean: restaurantInstance, field: "description")}</p>
 							<p>
-								<g:link class="btn btn-primary"action="show" id="${restaurantInstance.id}">Ver</g:link>
+								<g:link class="btn btn-primary"action="menu" id="${restaurantInstance.id}">Ver</g:link>
 								
 							</p>
 						</div>
