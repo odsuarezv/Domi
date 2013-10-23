@@ -9,11 +9,7 @@ class RestaurantController {
     def index() {
         redirect(action: "list", params: params)
     }
-	def menu(Long id){
-		def products = Product.findAllByRestaurant(Restaurant.get(id))
-		 render(view:"menu",model:[menuInstance: products])
-		
-	}
+	
 
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
