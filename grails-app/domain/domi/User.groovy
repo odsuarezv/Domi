@@ -1,5 +1,5 @@
 package domi
-
+// comentario en user
 class User {
 	
 	static hasMany = [ direcciones:Address,pedidos: Pedido]
