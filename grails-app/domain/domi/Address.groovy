@@ -1,7 +1,5 @@
 package domi
-// cristian campos
-//Diego Pedraza
-//crcampos5
+// 
 class Address {
 	
 	static belongsTo = [direccion:User]
