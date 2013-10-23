@@ -1,3 +1,9 @@
+/dbdoc
+/domi
+/grails
+/messages.properties
+/org
+/spring
 /ApplicationResources$_run_closure1.class
 /ApplicationResources$_run_closure1_closure2.class
 /ApplicationResources.class
@@ -28,12 +34,6 @@
 /DataSource.class
 /DbdocUrlMappings$__clinit__closure1.class
 /DbdocUrlMappings.class
-/DefaultCacheConfig$_run_closure1.class
-/DefaultCacheConfig$_run_closure1_closure2.class
-/DefaultCacheConfig$_run_closure1_closure3.class
-/DefaultCacheConfig.class
-/DefaultWebXmlConfig$_run_closure1.class
-/DefaultWebXmlConfig.class
 /JQueryConfig$_run_closure1.class
 /JQueryConfig.class
 /JQueryPluginResources$_run_closure1.class
@@ -47,7 +47,6 @@
 /JQueryResourceTagLib$_closure2_closure6.class
 /JQueryResourceTagLib$_closure2_closure7.class
 /JQueryResourceTagLib$_closure3.class
-/JQueryResourceTagLib.class
 /JQueryService$_closure1.class
 /JQueryService$_closure2.class
 /JQueryService$_closure3.class
@@ -60,6 +59,13 @@
 /JQueryTagLib$_closure4.class
 /JQueryTagLib$_closure5.class
 /JQueryTagLib.class
+/DefaultCacheConfig$_run_closure1.class
+/DefaultCacheConfig$_run_closure1_closure2.class
+/DefaultCacheConfig$_run_closure1_closure3.class
+/DefaultCacheConfig.class
+/DefaultWebXmlConfig$_run_closure1.class
+/DefaultWebXmlConfig.class
+/JQueryResourceTagLib.class
 /ResourcesBootStrap$_closure1.class
 /ResourcesBootStrap$_closure2.class
 /ResourcesBootStrap.class
@@ -67,8 +73,5 @@
 /UrlMappings$__clinit__closure1_closure2.class
 /UrlMappings$__clinit__closure1_closure2_closure3.class
 /UrlMappings.class
-/domi
-/grails
-/org
 /resources$_run_closure1.class
 /resources.class
