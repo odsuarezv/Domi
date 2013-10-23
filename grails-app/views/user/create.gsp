@@ -1,4 +1,6 @@
 <%@ page import="domi.User" %>
+
+ <!-- comentario Diego -->
 <!DOCTYPE html>
 <html>
 	<head>
