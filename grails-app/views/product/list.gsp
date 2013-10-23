@@ -50,6 +50,7 @@
 				</g:each>
 				</tbody>
 			</table>
+			<g:render template="list"/>
 			<div class="pagination">
 				<g:paginate total="${productInstanceTotal}" />
 			</div>
