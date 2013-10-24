@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+
+.products-template img{
+	margin: 0px;
+	position: relative;
+	float: left;
+	
+}

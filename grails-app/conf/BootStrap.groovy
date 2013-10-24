@@ -1,6 +1,6 @@
 import domi.Restaurant
 import grails.util.GrailsUtil
-
+import domi.Product
 class BootStrap {
 
     def init = { servletContext ->
@@ -53,6 +53,53 @@ class BootStrap {
 					web: ""
 					)
 				restaurant3.save(failOnError: true)
+				
+				def product1= new Product(
+					name: "pollo",
+					description: "buen sabor del pollo de cualquier lado blablablablabla",
+					price: 10000,
+					
+					)
+				product1.setRestaurant(restaurant1)
+				product1.save(failOnError: true)
+				
+				def product2=new Product(
+					name: "carne",
+					description: "buen sabor de la carne de cualquier lado blablablablabla",
+					price: 15000,
+
+					)
+				product2.setRestaurant(restaurant1)
+				product2.save(failOnError: true)
+				
+				def product3=new Product(
+					name: "hamburguesa",
+					description: "buen sabor de la hamburguesa de cualquier lado blablablablabla",
+					price: 20000,
+
+					)
+				product3.setRestaurant(restaurant1)
+				product3.save(failOnError: true)
+				
+				def product4=new Product(
+					name: "arepa",
+					description: "buen sabor de la arepa de cualquier lado blablablablabla",
+					price: 5000,
+
+					)
+				product4.setRestaurant(restaurant1)
+				product4.save(failOnError: true)
+				
+				def product5=new Product(
+					name: "arroz",
+					description: "buen sabor del arroz de cualquier lado blablablablabla",
+					price: 7000,
+
+					)
+				product5.setRestaurant(restaurant1)
+				product5.save(failOnError: true)
+				
+					
     }
     def destroy = {
     }
