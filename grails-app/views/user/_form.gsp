@@ -55,7 +55,8 @@
 		<g:message code="user.role.label" default="Role" />
 		
 	</label>
-	<g:textField name="role" value="${userInstance?.role}"/>
+	<!--<g:textField name="role" value="${userInstance?.role}"/>-->
+	<g:textField name="role" value="usuario"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'birthdate', 'error')} required">
@@ -66,7 +67,7 @@
 	<g:datePicker name="birthdate" precision="day"  value="${userInstance?.birthdate}"  />
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'pedidos', 'error')} ">
+<!-- <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'pedidos', 'error')} ">
 	<label for="pedidos">
 		<g:message code="user.pedidos.label" default="Pedidos" />
 		
@@ -78,8 +79,8 @@
 </g:each>
 <li class="add">
 <g:link controller="pedido" action="create" params="['user.id': userInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'pedido.label', default: 'Pedido')])}</g:link>
-</li>
-</ul>
+</li> 
+</ul> 
 
-</div>
+</div> -->
 
