@@ -6,3 +6,10 @@
 	float: left;
 	
 }
+
+.products-template price{
+	margin: 0px;
+	position: relative;
+	float: right;
+	
+}

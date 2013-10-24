@@ -52,12 +52,17 @@
 						<td>${fieldValue(bean: productInstance, field: "description")}</td>
 					
 						<td>${fieldValue(bean: productInstance, field: "restaurant")}</td>
+						<td>
+								<g:link class="btn btn-primary" controller="product" action="show" id="${productInstance.id}">Ver</g:link>
+								<g:link class="btn btn-primary" controller="product" action="edit" id="${productInstance.id}">Editar</g:link>
+							</td>
 					
 					</tr>
 				</g:each>
 				</tbody>
 			</table>
-			<g:render template="list"/>
+		<!--	<g:render template="list"/>
+		-->
 			<div class="pagination">
 				<g:paginate total="${productInstanceTotal}" />
 			</div>

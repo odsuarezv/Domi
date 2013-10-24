@@ -30,10 +30,8 @@
 							
 						
 							<p>
-								<g:link class="btn btn-primary" controller="product" action="show" id="${productInstance.id}">Ver</g:link>
-								<g:link class="btn btn-primary" controller="product" action="edit" id="${productInstance.id}">Editar</g:link>
-								<g:link class="btn btn-primary" controller="product" action="delete" id="${productInstance.id}">Eliminar</g:link>
-							</p>
+								<g:link class="btn btn-primary" controller="product" id="${productInstance.id}">+</g:link>
+								
 						</div>	
 
 				</div>
